@@ -1,0 +1,85 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage[spanish]{babel}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage{gensymb}
+\begin{document}
+\begin{titlepage}
+
+\title{Proyecto Parcial 2: Regresión lineal}
+\author{Equipo 4: \\
+\\Estrella de Alhely Hdz Mérida A01174160 
+\\Edgar Cano Cruz A01731282
+\\José Alberto Loranca Tapia A01328448
+\\Wendy Catherine Bárcenas Rodríguez A01423727
+\\Dimani Guadalupe Reyes Tlelo A01731786
+\\ \\Métodos numéricos en Ingeniería
+\\ \\ Profesor: Adolfo Centreno Tellez
+ }
+\date{30 de octubre de 2020}
+\end{titlepage}
+\begin{figure}[t!]
+\centering
+\includegraphics[scale=0.2]{logoTec.png}
+\end{figure}
+\maketitle
+\newpage
+
+
+
+\section{Objetivo}
+El objetivo del presente proyecto se trata de definir la utilidad de los métodos numéricos para la Ingeniería en Biotecnología o bien para aplicaciones en la Ingeniería Química , enfocado en el área de los procesos químicos  y la pureza de de los productos producidos en un proceso químico de destilación. Además, se podrá delimitar la trascendencia del empleo de los métodos numéricos y se reconocerá los modelos matemáticos que posibilitan la estimación de un resultado o la aproximación al mismo, de esta manera, se podrá lograr la resolución de una incógnita aplicada a la Biotecnología.
+
+
+\section{Introduction}
+Los métodos numéricos son técnicas para aproximar procedimientos matemáticos de gran importancia en la ingeniería, ya que sin estas aproximaciones no es posible resolver el procedimiento analíticamente o bien, el método analítico es intratable.
+
+Si bien, existen múltiples métodos que forman parte de esta rama de la ingeniería que han sido de gran utilidad en las ciencias para la resolución de problemas o de igual manera, para el estudio detallado y concreto de determinadas variables que forman parte de sistemas o materia en estudio. Ahora bien, los modelos de aproximación matemática son utilizados no solo en el mundo de la ingeniería, si no en todo proceso en donde los números, cifras o cantidades jueguen un papel importante. Es por ello que la finalidad de los análisis numéricos es hallar soluciones aproximadas o cercanas a la incertidumbre de ciertos problemas complejos que se puedan resolver de manera ingeniosa y simple con cálculos aritméticos.
+
+Es importante que para llevar a cabo un proceso de solución adecuado por medio de un equipo de cómputo, que se tome en cuenta las siguientes consideraciones como: 
+\begin{itemize}
+ \item Especificación del problema: para tener identificado y claro el problema, sus variables que influyen en este y los resultados esperados. 
+ \item Análisis: para una formulación adecuada del problema junto con una serie de pasos a seguir para tener un camino claro en la toma decisiones para llevar a cabo el proceso adecuado. 
+ \end{itemize}
+
+\section{Descripción del problema}
+El proceso químico de destilación se trata de un proceso que implica la conversión de un líquido en vapor que posteriormente se condensa de nuevo a forma líquida. Se ejemplifica en su forma más simple cuando el vapor de una tetera se deposita como gotas de agua destilada sobre una superficie fría. La destilación se utiliza para separar líquidos de sólidos no volátiles, como en la separación de licores alcohólicos de materiales fermentados, o en la separación de dos o más líquidos que tienen diferentes puntos de ebullición, como en la separación de gasolina, queroseno y aceite lubricante del petróleo crudo. 
+En el presente proyecto, se requiere estudiar la relación entre la pureza del oxígeno, el cual es la variable Y, producido en un proceso químico de destilación y el nivel de Hidrocarburos, la variable X, presentes en el condensador principal de la unidad de destilación. En un experimento se realizaron 20 observaciones y se anotaron los valores de las variables en la siguiente tabla:
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=.7]{MN_1.png}
+\end{figure}
+\\
+El presente proyecto consistirá en aplicar el modelo matemático visto en clase conocido como regresión lineal, para hacer  predicciones de un conjunto de datos dispersos con el objetivo de encontrar la ecuación para hallar una recta aproximada. Así mismo, este método enfatiza la relación estadística entre dos variables continuas conocidas como variables de predicción y respuesta.
+
+\section{Resultados}
+
+Método de regresión lineal
+.\\
+ La regresión lineal intenta modelar la relación entre dos variables ajustando una ecuación lineal a los datos observados. Una variable se considera una variable explicativa y la otra una variable dependiente. Ahora bien, antes de intentar ajustar un modelo lineal a los datos observados, un modelador debe determinar primero si existe o no una relación entre las variables de interés. Esto no implica necesariamente que una variable cause la otra, pero que exista alguna asociación significativa entre las dos variables. Un diagrama de dispersión puede ser una herramienta útil para determinar la fuerza de la relación entre dos variables. Una valiosa medida numérica de asociación entre dos variables es el coeficiente de correlación, que es un valor entre -1 y 1 que indica la fuerza de la asociación de los datos observados para las dos variables. Una línea de regresión lineal tiene una ecuación de la forma Y = a + bX, donde X es la variable explicativa, así como Y es la variable dependiente. En este caso, el número de datos (n) fue igual a 20, mientras que el valor de b1 fue igual a 14.947, b0 igual a 74.283, r igual a 0.9367 y el valor final de $r^{2}$ fue igual a 0.8774, siendo así una relación fuerte y puede ser usada para planificar. En cuanto a los datos obtenidos en Matlab, el valor de “Y” para x=1 fue de 89.2307, mientras que el valor de $r^{2}$ fue igual a 0.8774, de esta manera, podemos comprobar que los datos son correctos y están relacionados entre sí.
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=.5]{MN_2.png}
+\end{figure}
+\\
+ \section{Conclusión}
+ El análisis de regresión lineal empleada en este proyecto, es fundamental para encontrar las relaciones y significación que existen entre series de datos. Esto es importante tanto en este caso teóricamente aplicado como para la industria en la cual se presentan casos reales, similares al que se plantea en este documento como lo es la conversión de un líquido a vapor y posteriormente condensarlo para regresarlo a líquido.
+
+La intención de usar el método de regresión lineal en este problema es la de crear un modelo matemático para la estimación de un resultado o aproximaciones del mismo, en base a los datos o variables conocidas. La facilidad que nos proporcionan estos métodos matemáticos y las nuevas herramientas tecnológicas en estos tiempos donde ahorrar tiempo, dinero y costos es lo primordial, es indispensable emplear métodos numéricos que optimicen nuestros tiempos de respuesta a alguna problemática. 
+
+ \section{Bibliografía}
+ Smith, A. (2019). Distillation. Britannica. Sitio web:  
+ https://www.britannica- .com /science/distillation
+ 
+ Johnson, S. Linear regression. Yale.  Sitio web: 
+ 
+ http://www.stat.yale.edu/Courses/1997-98/101/linreg.htm
+ 
+ William Mendenhall y Dennos D. Wackerly. (1994). ESTADÍSTICA MATEMÁTICA CON APLICACIONES. Segunda Edición. Iberoamericana.
+ 
+ V. Abraira, A. Pérez de Vargas. (1988). CORRELACIÓN Y MODELOS DE REGRESIÓN LINEAL. 2020, de Ed. Centro de Estudios Ramón Areces. Sitio web: http://www.hrc.es/bioest/Reglin_1.html
+
+ 
+\end{document}
