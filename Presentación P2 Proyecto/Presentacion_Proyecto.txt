@@ -1,0 +1,181 @@
+% Author: Alberto Loranca 
+% Waves Lab
+
+ 
+\documentclass{beamer}
+\setbeamertemplate{navigation symbols}{}
+\usepackage[utf8]{inputenc}
+\usepackage{beamerthemeshadow}
+\usepackage{listings}
+\usepackage{hyperref}
+
+\begin{document}
+\title{Métodos numéricos en ingeniería Presentación del Proyecto Parcial 2}  
+\subtitle{Profesor: Adolfo Centeno Tellez}
+\author{Edgar Cano Cruz A01731282; José Alberto Loranca Tapia A01328448; Estrella de Alhely Hdz Mérida A01174160; 
+Dimani Guadalupe Tlelo Reyes A01731786; Wendy Catherine Bárcenas Rodríguez A01423727}
+\date{Octubre 2020} 
+\logo(\includegraphics[scale=0.104]{iteslogo.jpg}
+
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}\frametitle{Table of contents}
+\tableofcontents
+\end{frame} 
+
+
+\section{Objetivo}
+
+\begin{frame}
+
+\textbf{Objetivo}
+
+\begin{enumerate}
+\item
+
+El objetivo del presente proyecto se trata de definir la utilidad de los métodos numéricos para la Ingeniería en 
+Biotecnología o bien para aplicaciones en la Ingeniería Química, enfocado en el área de los procesos químicos  y 
+la pureza de de los productos producidos en un proceso químico de destilación. 
+Además, se podrá delimitar la trascendencia del empleo de los métodos numéricos, de esta manera, se podrá lograr 
+la resolución de una incógnita aplicada a la Biotecnología
+
+\logo(\includegraphics[scale=0.131]{123rvd20.jpg}
+
+\logo(\includegraphics[scale=0.0384]{chemis256.jpg}
+
+
+\end{enumerate} 
+
+
+\end{frame}
+
+
+\section{Introducción}
+
+\begin{frame}
+
+\textbf{Introducción}
+
+
+\begin{enumerate}
+\item
+
+La regresión lineal es una rama de los métodos numéricos utilizado para medir la correlación de dependencia de 
+los variables dependientes e independientes. Ésta es de gran importancia para la ingeniería ya que con ésta se 
+debate mejor sobre los resultados obtenidos.
+En seguimiento al proyecto, el proceso químico de destilación consta de transferir calor a un líquido, 
+esperando vaporizar  sustancias para después condensarse y estudiar así los componentes.
+
+\logo(\includegraphics[scale=0.131]{123rfbf55100.jpg}
+
+\logo(\includegraphics[scale=0.0384]{chemis256.jpg}
+
+\end{enumerate} 
+
+
+\end{frame}
+
+
+\section{Descripción del problema a resolver}
+
+\begin{frame}
+
+\textbf{Descripción del problema a resolver}
+
+\begin{enumerate}
+\item
+
+El proceso químico de destilación se trata de un proceso que implica la conversión de un líquido en vapor que 
+luego se condensa de nuevo a forma líquida. En el presente proyecto, se requiere estudiar la relación entre la 
+pureza del oxígeno producido en un proceso químico de destilación y el nivel de Hidrocarburos presentes en el 
+condensador principal de la unidad de destilación. 
+Se aplicará el modelo matemático conocido como regresión lineal, para hacer  predicciones de un conjunto de 
+datos dispersos con el objetivo de encontrar la ecuación para hallar una recta aproximada. 
+
+\logo(\includegraphics[scale=0.131]{119fvfdv0sa0.jpg}
+
+\logo(\includegraphics[scale=0.0384]{chemis256.jpg}
+
+\end{enumerate} 
+
+
+\end{frame}
+
+
+\section{Resultados}
+
+\begin{frame}
+
+\textbf{Resultados}
+
+\begin{enumerate}
+\item
+
+La regresión lineal intenta modelar la relación entre dos variables ajustando una ecuación lineal a los datos 
+observados. Un diagrama de dispersión puede ser una herramienta útil para determinar la fuerza de la relación 
+entre dos variables.
+Una línea de regresión lineal tiene una ecuación de la forma Y = a + bX, donde X es la variable explicativa, 
+así como Y es la variable dependiente. En este caso, el número de datos (n) fue igual a 20, mientras que el 
+valor de b1 fue igual a 14.947, b0 igual a 74.283, r igual a 0.9367 y el valor final de r^2 fue igual a 0.8774, 
+siendo así una relación fuerte y puede ser usada para planificar. 
+
+\logo(\includegraphics[scale=0.131]{gdb6a80b1afb.jpg}
+
+\logo(\includegraphics[scale=0.0384]{chemis256.jpg}
+
+\end{enumerate} 
+
+
+\end{frame}
+
+
+\section{Resultados}
+
+\begin{frame}
+
+\textbf{Resultados}
+
+\begin{enumerate}
+\item
+
+\logo(\includegraphics[scale=140]{bdsgb810b5gb.jpg}
+
+\end{enumerate} 
+
+
+\end{frame}
+
+
+\section{Conclusión}
+
+\begin{frame}
+
+\textbf{Conclusión}
+
+\begin{enumerate}
+\item
+
+Los procesos de destilación son comunes dentro de nuestra vida diaria y el conocer sobre el cómo estas 
+funcionan es fundamental para un buen entendimiento no solo en las áreas químicas, sino también en toda 
+la rama de la ingeniería. 
+Así que gracias a los métodos numéricos, cómo es en este caso la regresión lineal, no solo nos facilita 
+el entendimiento de estos, también nos ayuda a crear conclusiones más certeras y con menor margen de 
+error.
+
+\logo(\includegraphics[scale=0.131]{arhb9pb5adfb.jpg}
+
+\logo(\includegraphics[scale=0.0384]{chemis256.jpg}
+
+\end{enumerate} 
+
+
+\end{frame}
+
+
+
+
+	
+\end{document}
